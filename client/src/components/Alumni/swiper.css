@@ -1,0 +1,18 @@
+.mySwiper {
+    max-height: 500px; /* Constrain Swiper's height */
+    max-width: 700px;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%; /* Make sure images fit the slide */
+    height: 100%; /* Scale images properly */
+    object-fit: cover; /* Avoid images breaking the layout */
+  }
+  
